@@ -1,0 +1,164 @@
+@import './assets/scss/fonts.scss';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', 'Source Sans Pro', Arial, sans-serif;
+}
+
+.app {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h3 {
+	margin-bottom: 10px;
+}
+
+.heading {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #2b2d42;
+	box-shadow: 0 1px 10px 1px grey;
+}
+
+.timer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	i {
+		margin: 0 2vw;
+		font-size: 2em;
+	}
+	h2 {
+		flex-grow: 1;
+		opacity: 0.7;
+		width: 8em;
+		&.active {
+			opacity: 1;
+		}
+	}
+}
+
+.board-wrap {
+	display: flex;
+	margin-top: 100px;
+}
+
+.board {
+	width: calc(10vmin * 8);
+	height: calc(10vmin * 8);
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 2vmin;
+}
+
+.lost-figures {
+	border: 2px solid #808ba0;
+	width: 6vw;
+	text-align: center;
+	background-color: #dbdbdd;
+}
+
+.lost-figure {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 5px;
+	i {
+		font-size: calc(10vmin * 0.85);
+		text-shadow: 0 0 4px #fff;
+		&.white {
+			color: #fff;
+			text-shadow: 0 0 4px #000;
+		}
+	}
+}
+
+.cell {
+	width: 10vmin;
+	height: 10vmin;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	font-size: calc(10vmin * 0.85);
+	transition: background-color 0.15s ease-in-out;
+	&:hover {
+		font-size: calc(10vmin * 0.95);
+	}
+	img {
+		display: inline-block;
+		max-width: 100%;
+	}
+	&.black {
+		background-color: #808ba0;
+		&:hover {
+			background-color: darken(#808ba0, 10%);
+		}
+	}
+
+	&.white {
+		background-color: #dbdbdd;
+		&:hover {
+			background-color: darken(#dbdbdd, 10%);
+		}
+	}
+	i {
+		cursor: grab;
+		&.black {
+			color: #000;
+			text-shadow: 0 0 4px #fff;
+		}
+		&.white {
+			color: #fff;
+			text-shadow: 0 0 4px #000;
+		}
+	}
+
+	&.selected {
+		background-color: brown;
+	}
+
+	&.available {
+		background-color: green;
+	}
+
+	.available {
+		height: 12px;
+		width: 12px;
+		border-radius: 50%;
+		background-color: #22c022;
+	}
+}
+
+.btn {
+	display: inline-block;
+	font-size: 1em;
+	padding: 8px 20px;
+	border-radius: 7px;
+	background-color: #808ba0;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	transition: all 0.3s ease-in-out;
+	&:hover {
+		background-color: darken(#808ba0, 10%);
+	}
+}
