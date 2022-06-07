@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-chess/static/css/main.ba404667.css",
+    "main.js": "/react-chess/static/js/main.93a1196c.js",
+    "static/media/fa-light-300.svg": "/react-chess/static/media/fa-light-300.089ca6f3b9bf9bb2cc3b.svg",
+    "static/media/fa-regular-400.svg": "/react-chess/static/media/fa-regular-400.b231c60dbf0220694d0f.svg",
+    "static/media/fa-solid-900.svg": "/react-chess/static/media/fa-solid-900.d2fccbcf6c8581ec67d8.svg",
+    "static/media/fa-brands-400.svg": "/react-chess/static/media/fa-brands-400.719ece5bd6650db509f0.svg",
+    "static/media/fa-light-300.eot": "/react-chess/static/media/fa-light-300.e87b1e2666fa970737af.eot",
+    "static/media/fa-light-300.ttf": "/react-chess/static/media/fa-light-300.8851aee61e6a758cd501.ttf",
+    "static/media/fa-regular-400.eot": "/react-chess/static/media/fa-regular-400.41383e8e114a5d02d5cd.eot",
+    "static/media/fa-regular-400.ttf": "/react-chess/static/media/fa-regular-400.0018d18c24d1c3e12331.ttf",
+    "static/media/fa-solid-900.eot": "/react-chess/static/media/fa-solid-900.63688da0d5fd13844213.eot",
+    "static/media/fa-solid-900.ttf": "/react-chess/static/media/fa-solid-900.f82412c3afc1c4a96bb6.ttf",
+    "static/media/fa-light-300.woff": "/react-chess/static/media/fa-light-300.846f0c8dd4aea6273dd4.woff",
+    "static/media/fa-regular-400.woff": "/react-chess/static/media/fa-regular-400.85d2274090db2c6eb5b2.woff",
+    "static/media/fa-light-300.woff2": "/react-chess/static/media/fa-light-300.dee80f72e1fe3a1e460d.woff2",
+    "static/media/fa-solid-900.woff": "/react-chess/static/media/fa-solid-900.b75ed4a2583a09354921.woff",
+    "static/media/fa-regular-400.woff2": "/react-chess/static/media/fa-regular-400.12d749c9ef06f504a54e.woff2",
+    "static/media/fa-brands-400.eot": "/react-chess/static/media/fa-brands-400.abbfa77d1ba20ce36bec.eot",
+    "static/media/fa-brands-400.ttf": "/react-chess/static/media/fa-brands-400.84f90873f5accab0d6b7.ttf",
+    "static/media/fa-solid-900.woff2": "/react-chess/static/media/fa-solid-900.5c15203c3c63209b18d5.woff2",
+    "static/media/fa-brands-400.woff": "/react-chess/static/media/fa-brands-400.a76fb581908eb7e76f76.woff",
+    "static/media/fa-brands-400.woff2": "/react-chess/static/media/fa-brands-400.d8d6032f14dcf4b919cd.woff2",
+    "index.html": "/react-chess/index.html",
+    "main.ba404667.css.map": "/react-chess/static/css/main.ba404667.css.map",
+    "main.93a1196c.js.map": "/react-chess/static/js/main.93a1196c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba404667.css",
+    "static/js/main.93a1196c.js"
+  ]
+}
